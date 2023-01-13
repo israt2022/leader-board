@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-ber{
+    display: flex;
+    background-color: #562EFF;
+    height: 80px;
+    font-size: 20px;
+}
+.logo{
+    display: flex;
+    margin-left: 150px;
+    padding: 20px;
+
+}
+.logo h3{
+    color: white;
+    margin-left: 15px;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    margin-left: 500px;
+
+}
+.nav ul{
+    display: flex;
+    color: white;
+}
+.nav li{
+    list-style: none;
+    margin-left: 35px;
+    
+}
+.profile{
+    margin: 15px 150px 15px 5px;
+
+}
+
+/* main */
+
+.container{
+    background-color: #E5E5E5;
+}
+.top-players{
+    width: 807px;
+    margin-left: 275px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+}
+.title{
+    color: #562EFF;
+    margin: 0 50px 40px 50px;
+    padding-top: 40px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-left: 50px;
+    
+}
+.player{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+}
+.player img{
+    height: 56px;
+    width: 56px;
+}
+hr{
+    width: 710px;
+    margin: 30px 50px;
+    margin-bottom: 0;
+}
+
+/* blogs */
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin-left: 50px;
+    
+}
+.about-us{
+    display: flex;
+    gap: 10px;
+
+}
+.about-us img{
+    height: 117px;
+    width: 177px;
+}
+
+/* course */
+
+.last{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.course{
+    width: 807px;
+    height: 350px;
+    margin-left: 275px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    margin-top: 40px;
+    padding-bottom: 50px;
+}
+.banner{
+    height: 260px;
+    /* width: 250px; */
+    width: 100%;
+    margin-left: 20px;
+}
+.box{
+    Width: 240px;
+    Height: 260px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px gray;
+    margin-bottom: 25px;
+}
+.banner img{
+    background-color: #FFFFFF;
+    width: 224px;
+    height: 104px;
+}
+.red{
+    color: #ED6B4F;
+}
+.yellow{
+    color: goldenrod;
+}
+.gray{
+    color: gray;
+}
+.clock{
+    color: #ED6B4F;
+}
+.footer{
+    display: flex;
+}
+
+
+/* responsive */
